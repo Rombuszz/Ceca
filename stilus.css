@@ -1,0 +1,77 @@
+.tarolo {
+  margin: auto;
+  width: 100%;
+  max-width: 800px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.fejlec {
+  background-image: url("kepek/hero.jpg");
+  height: 100vh;
+  background-size: cover;
+  text-align: center;
+  background-position: bottom;
+}
+
+.masodik {
+  background-color: rgb(22, 22, 22);
+  height: 100vh;
+  background-size: cover;
+}
+
+.harmadik {
+  background-color: rgb(22, 22, 22);
+  height: 100vh;
+  background-size: cover;
+}
+
+.negyedik {
+  background-color: rgb(22, 22, 22);
+  height: 100vh;
+  background-size: cover;
+}
+
+.otodik {
+  background-color: rgb(22, 22, 22);
+  height: 100vh;
+  background-size: cover;
+}
+
+.hatodik {
+  background-color: rgb(22, 22, 22);
+  height: 100vh;
+  background-size: cover;
+}
+
+h1 {
+  color: whitesmoke;
+  padding-top: 40px;
+  font-size: 40px;
+  text-decoration: none;
+}
+
+p {
+  color: whitesmoke;
+  letter-spacing: 1px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.menu ul {
+  display: grid;
+  grid-template-columns: 22% 22% 22% 22%;
+  padding-top: 35px;
+  padding-left: 30px;
+  gap: 20px;
+}
+
+.menu li {
+  list-style-type: none;
+  background-color: chocolate;
+  border-radius: 30px;
+  padding: 20px;
+  gap: 10px;
+}
