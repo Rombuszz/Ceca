@@ -5,24 +5,35 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.stopfloat {
+  clear: both;
+}
+
 .fejlec {
   background-image: url("kepek/hero.jpg");
-  height: 100vh;
+  height: 128vh;
   background-size: cover;
   text-align: center;
   background-position: bottom;
+  margin-bottom: -27px;
 }
 
 .masodik {
+  margin: auto;
   background-color: rgb(22, 22, 22);
   height: 100vh;
   background-size: cover;
+  text-align: center;
+  max-height: 260px;
+  margin-bottom: -27px;
 }
 
 .harmadik {
+  margin: auto;
   background-color: rgb(22, 22, 22);
   height: 100vh;
   background-size: cover;
+  text-align: center;
 }
 
 .negyedik {
@@ -44,6 +55,13 @@
 }
 
 h1 {
+  color: whitesmoke;
+  padding-top: 40px;
+  font-size: 40px;
+  text-decoration: none;
+}
+
+h2 {
   color: whitesmoke;
   padding-top: 40px;
   font-size: 40px;
@@ -72,6 +90,324 @@ p {
   list-style-type: none;
   background-color: chocolate;
   border-radius: 30px;
-  padding: 20px;
+  padding: 16px;
   gap: 10px;
+  font-size: 14px;
+  box-shadow: 0px 2px 10px rgb(25, 25, 25);
+}
+
+.fejleclink a {
+  text-decoration: none;
+  color: whitesmoke;
+  font-size: 14px;
+}
+
+.fejleclink {
+  margin: auto;
+  margin-top: 20px;
+  background-color: chocolate;
+  max-width: 268px;
+  border-radius: 30px;
+  padding: 16px;
+  box-shadow: 0px 2px 10px rgb(25, 25, 25);
+  /*
+  background-color: chocolate;
+  border-radius: 30px;
+  padding: 16px;
+  */
+}
+
+.masodikszov h1 {
+  font-size: 30px;
+}
+
+.masodikmenu ul {
+  display: grid;
+  grid-template-columns: 44% 44%;
+  padding-top: 17px;
+  gap: 40px;
+  justify-content: center;
+}
+
+.masodikmenu li {
+  list-style-type: none;
+  background-color: chocolate;
+  border-radius: 30px;
+  padding: 16px;
+  font-size: 14px;
+  box-shadow: 0px 2px 10px rgb(25, 25, 25);
+  margin-right: 35px;
+}
+
+.masodikmenu a {
+  text-decoration: none;
+  color: whitesmoke;
+  font-size: 14px;
+}
+
+.harmadik {
+  height: 700px;
+  text-align: center;
+  margin-bottom: -21px;
+}
+
+.harmadikszov h1 {
+  font-size: 30px;
+}
+
+.harmadikszov h2 {
+  font-size: 20px;
+  margin-bottom: 23px;
+  margin-top: -20px;
+}
+
+.harmadiklista {
+  text-align: left;
+  color: whitesmoke;
+  letter-spacing: 1px;
+}
+
+.harmadiklista ul {
+  margin-left: 35px;
+}
+
+.harmadik li {
+  margin-bottom: 5px;
+}
+
+.harmadikmenu ul {
+  display: grid;
+  grid-template-columns: 44% 44%;
+  padding-top: 17px;
+  gap: 40px;
+  justify-content: center;
+}
+
+.harmadikmenu li {
+  list-style-type: none;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 22px;
+  padding: 16px;
+  font-size: 16px;
+  box-shadow: 0px 2px 10px rgb(25, 25, 25);
+  margin-right: 35px;
+  height: 310px;
+  text-decoration: none;
+  color: whitesmoke;
+  font-size: 17px;
+}
+
+#harmadik_a {
+  background-image: url("kepek/norveg\ macska.jpg");
+}
+
+#harmadik_b {
+  background-image: url("kepek/main\ coon.jpg");
+}
+
+.negyedik {
+  height: 700px;
+  text-align: center;
+  margin-bottom: -35px;
+}
+
+.negyedikszov h1 {
+  font-size: 30px;
+}
+
+.negyedikszov h2 {
+  font-size: 20px;
+  margin-bottom: 23px;
+  margin-top: -20px;
+}
+
+.negyediklista {
+  text-align: left;
+  color: whitesmoke;
+  letter-spacing: 1px;
+  margin-top: 35px;
+}
+
+.negyediklista ul {
+  margin-left: 35px;
+}
+
+.negyedik li {
+  margin-bottom: 5px;
+}
+
+.negyedikmenu ul {
+  display: grid;
+  grid-template-columns: 44% 44%;
+  padding-top: 17px;
+  gap: 40px;
+  justify-content: center;
+}
+
+.negyedikmenu li {
+  list-style-type: none;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 22px;
+  padding: 16px;
+  font-size: 16px;
+  box-shadow: 0px 2px 10px rgb(25, 25, 25);
+  margin-right: 35px;
+  height: 310px;
+  text-decoration: none;
+  color: whitesmoke;
+  font-size: 17px;
+}
+
+#negyedik_a {
+  background-image: url("kepek/bengali.jpg");
+}
+
+#negyedik_b {
+  background-image: url("kepek/meg\ ez\ a\ cica.jpg");
+}
+
+.otodik {
+  height: 450px;
+  text-align: center;
+  margin-bottom: -34px;
+}
+
+.otodikszov h2 {
+  font-size: 25px;
+  margin-bottom: 23px;
+  margin-top: -20px;
+}
+
+.otodik li {
+  margin-bottom: 5px;
+}
+
+.otodikmenu ul {
+  display: grid;
+  grid-template-columns: 48% 48%;
+  padding-top: 17px;
+  gap: 0px;
+  justify-content: center;
+}
+
+.otodikmenu li {
+  list-style-type: none;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 12px;
+  padding: 14px;
+  font-size: 16px;
+  box-shadow: 0px 2px 10px rgb(25, 25, 25);
+  margin-right: 35px;
+  height: 310px;
+  text-decoration: none;
+  color: black;
+  font-size: 17px;
+  background-color: rgb(255, 255, 255);
+  max-height: 250px;
+  text-align: left;
+}
+
+.otodik li img {
+  max-width: 100px;
+  float: left;
+  margin-bottom: -17px;
+}
+
+.otodik li a {
+  text-align: center;
+}
+.otodik a {
+  text-decoration: none;
+  color: whitesmoke;
+  font-size: 13px;
+}
+
+.otodiklink {
+  background-color: chocolate;
+  box-shadow: 0px 2px 4px rgb(180, 180, 180);
+  border-radius: 20px;
+  padding: 12px;
+  text-align: center;
+  max-width: 240px;
+  margin: auto;
+}
+
+.hatodik {
+  height: 455px;
+  text-align: center;
+}
+
+.hatodikszov h2 {
+  font-size: 25px;
+  margin-bottom: 23px;
+  margin-top: -20px;
+}
+
+.hatodik li {
+  margin-bottom: 5px;
+}
+
+.hatodikmenu ul {
+  display: grid;
+  grid-template-columns: 48% 48%;
+  padding-top: 17px;
+  gap: 0px;
+  justify-content: center;
+}
+
+.hatodikmenu li {
+  list-style-type: none;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 12px;
+  padding: 14px;
+  font-size: 16px;
+  box-shadow: 0px 2px 10px rgb(25, 25, 25);
+  margin-right: 35px;
+  height: 310px;
+  text-decoration: none;
+  color: whitesmoke;
+  font-size: 17px;
+  background-color: rgb(49, 49, 49);
+  max-height: 275px;
+  text-align: left;
+  border: solid 2.5px rgb(108, 108, 108);
+}
+
+.hatodik li img {
+  max-width: 100px;
+  float: left;
+  margin-bottom: -17px;
+}
+
+.hatodik li a {
+  text-align: center;
+}
+.hatodik a {
+  text-decoration: none;
+  color: whitesmoke;
+  font-size: 13px;
+}
+
+.hatodiklink {
+  background-color: rgb(49, 49, 49);
+  box-shadow: 0px 2px 4px rgb(21, 21, 21);
+  border-radius: 20px;
+  padding: 12px;
+  text-align: center;
+  max-width: 240px;
+  margin: auto;
+  border: solid 2.5px chocolate;
+}
+
+.hatodikdatum {
+  margin-top: 12px;
+}
+
+.hatodikszoveg {
+  font-size: 15px;
+  letter-spacing: 1px;
 }
